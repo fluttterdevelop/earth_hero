@@ -1,0 +1,73 @@
+name: earth_hero
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0-91.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^3.0.0
+
+
+flutter_launcher_icons:
+  # android: "launcher_icon"
+  ios: true
+  android: true
+  image_path: "assets/logo/logos.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo/logos.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/logo/logos.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/logo/logos.png"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo/logos.png
+    - assets/logo/logo.png
+    - assets/logo/earth.png
+    - assets/logo/back.png
+  #   - images/a_dot_ham.jpeg
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
